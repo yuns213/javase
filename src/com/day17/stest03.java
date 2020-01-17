@@ -13,7 +13,7 @@ public class stest03 {
     public  static  void  files(File file){
         File[] file1 = file.listFiles();
 
-        for (File file2 : file1){
+        for (File file2 :       file1){
             if (file2.isFile()){
                 System.out.println(file2.getName());
             }else{

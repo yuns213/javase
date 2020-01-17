@@ -11,7 +11,7 @@ public class ctest03 {
     public static void main(String[] args) {
         File file = new File("D://cs");
 
-        HashMap<String, Integer> map = new HashMap<String, Integer>();
+        HashMap<String, Integer> map = new HashMap<>();
         bianLi(file, map);
 
         Set<String> set = map.keySet();

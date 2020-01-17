@@ -36,8 +36,7 @@ public class MyDate {
     }
 
     public void showDate() {
-        System.out.println("日期:" +
-                year + "年" + month + "月" + day + '日');
+        System.out.println("日期:" + year + "年" + month + "月" + day + '日');
     }
 
     public void isBi() {

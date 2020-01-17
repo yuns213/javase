@@ -7,17 +7,14 @@ public class ctest01 {
 
     public static void main(String[] args) {
 
+        //创建文件对象
         File dir = new File("D://cs");
-        if(!dir.exists()) {
-            throw new RuntimeException("该文件夹不存在");
-        }
+       //调用静态方法
         get(dir, 0);
     }
-
+    //传入两个参数
     private static void get(File dir, int length) {
-        if(!dir.exists()) {
-            throw new RuntimeException("该文件夹不无访问权限");
-        }
+       //遍历
         for (int i = 0; i < length; i++)
             System.out.print("    ");
         System.out.println(dir);

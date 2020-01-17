@@ -27,7 +27,8 @@ public class Test0204 {
                     p.setProperty(key, "100");
                 }
             }
-            //把集合中所有的信息，重新存储到文件中
+
+
             Writer w = new FileWriter(file);
             p.store(w, null);
 
